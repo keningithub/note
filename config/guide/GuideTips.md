@@ -17,6 +17,11 @@
 
 - 道具获取 {"t":"item", itemId":30001, "event":"add", "count":1}
 
+#### 耐久度相关
+
+- 耐久度下降 {"t":"durable", "storeKey":"1_2", "event":"down", "val":20}
+
+
 ## 附加条件
 
 #### 待协商
