@@ -21,6 +21,8 @@
 
 - 耐久度下降 {"t":"durable", "storeKey":"1_2", "event":"down", "val":20}
 
+  storeKey: storeId_storeIndex
+
 
 ## 附加条件
 
@@ -78,4 +80,35 @@ DbTableFieldName.Character = {--属性相关(包括生存属性和战斗属性.�
 	BUFF_LIST				= "BuffList",			--角色Buff列表
 }
 ~~~~~~
+
+
+
+#### storeKey
+
+主武器: storeKey: 2_1
+
+``````
+ItemDef.StoreType = {
+	--前面这些类型与玩家自身的容器编号对应
+	STORE_PACKAGE		= 1,	--玩家身上背包(口袋+背包)
+	STORE_EQUIP			= 2,	--装备栏
+	STORE_PACKAGE_GRID	= 3,	--放背包的格子
+	STORE_FURNITURE		= 4,	--家具栏
+	STORE_VEHICLE		= 5,	--载具栏
+	STORE_ROBOT			= 6,	--天赋无人机
+	--20000起表示当前map对应的容器Id(尸体,宝箱)
+	STORE_MAP_START		= 20000,
+}
+
+ItemDef.EquipPos = {--装备栏位置
+	MAIN_WEAPON			= 1,		--主武器
+	SUB_WEAPON			= 2,		--副武器
+	PROJECTILE_WEAPON	= 3,		--投掷武器
+	HEAD				= 4,		--头部
+	CHEST				= 5,		--胸部
+	HAND				= 6,		--手部
+	LEG					= 7,		--腿部
+	FOOT				= 8,		--脚部
+}
+``````
 
