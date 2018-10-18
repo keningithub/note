@@ -1,23 +1,40 @@
 # 临近提示配置说明
 
-## 任务相关
+## 触发条件
 
-- 任务接收  [{"t":"mission", missionId":1, "event":"received"}]
-- 任务完成  [{"t":"mission", "missionId":1, "event":"completed"}]
+#### 任务相关
 
-## 角色属性相关
+- 任务接收  {"t":"mission", missionId":1, "event":"recv"}
+- 任务完成  {"t":"mission", "missionId":1, "event":"comp"}
 
-- 血量上升 [{"t":"player", "attr":"hp", "event":"up", "val":90}]
-- 饥饿度下降 [{"t":"player", "attr":"food", "event":"down", "val":20}]
-- 饥渴度下降 [{"t":"player", "attr":"drink", "event":"down", "val":20}]
+#### 角色属性相关
 
-## 道具相关
+- 血量上升 {"t":"player", "attr":"Hp", "event":"up", "val":90}
+- 饥饿度下降 {"t":"player", "attr":"FoodDegree", "event":"down", "val":20}
+- 饥渴度下降 {"t":"player", "attr":"DrinkDegree", "event":"down", "val":20}
 
-- 道具获取 [{"t":"item", itemId":30001, "event":"add", "count":1}]
+#### 道具相关
+
+- 道具获取 {"t":"item", itemId":30001, "event":"add", "count":1}
+
+## 附加条件
+
+#### 待协商
+- [{"key":"Hp", "val":20, "cpr":"lt/gt/le/ge"}]
+
+  lt: 小于
+
+  gt: 大于
+
+  le: 小于等于
+
+  lg: 大于等于
+
+  注: 不写cpr时, 判断相等
 
 ## 备注:
 
-#### 角色属性key
+#### 角色属性attr
 
 血量 = Hp
 
