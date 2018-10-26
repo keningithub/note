@@ -15,7 +15,7 @@
 
 #### 道具相关
 
-- 道具获取 {"t":"item", itemId":30001, "event":"add", "count":1}
+- 道具获取 {"t":"item", "itemId":30001, "event":"add", "count":1}
 
 #### 耐久度相关
 
