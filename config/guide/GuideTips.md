@@ -30,12 +30,24 @@
 #### 基础属性相关
 
 - 等级达到指定值 {"t":"base", "attr":"Level", "event":"up", "val":4}
+- 体力达到指定值 {"t":"base", "attr":"Strength", "event":"down", "val":20}
 
 #### 据点相关
 
 - 出现指定据点 {"t":"point", "pointId":1001}
 
-## 
+#### 游戏时间
+- 当前游戏时间跨越指定时间点 {"t":"gametime", "time":201200, "points":[100, 1101]} 
+
+  time为天天时时分分的格式, 即191200为第20天的12:00
+
+
+#### 使用物品或挂载装备时
+- 角色使用指定物品时 {"t":"useitem", "itemId":30001}
+
+#### Entity属性相关
+
+- 燃料下降 {"t":"entity", "entityId":"CurVehicle", "attr":"Vit", "event":"down", "val":0}
 
 
 
@@ -109,7 +121,7 @@ storeKey: storeId_storeIndex
 ItemDef.StoreType = {
 	--前面这些类型与玩家自身的容器编号对应
 	STORE_PACKAGE		= 1,	--玩家身上背包(口袋+背包)
-	STORE_EQUIP			= 2,	--装备栏
+	STORE_EQUIP			= 2,	--装备栏 <--------------------------
 	STORE_PACKAGE_GRID	= 3,	--放背包的格子
 	STORE_FURNITURE		= 4,	--家具栏
 	STORE_VEHICLE		= 5,	--载具栏
@@ -118,8 +130,9 @@ ItemDef.StoreType = {
 	STORE_MAP_START		= 20000,
 }
 
-ItemDef.EquipPos = {--装备栏位置
-	MAIN_WEAPON			= 1,		--主武器
+ItemDef.EquipPos = {
+	--装备栏位置
+	MAIN_WEAPON			= 1,		--主武器 <--------------------------
 	SUB_WEAPON			= 2,		--副武器
 	PROJECTILE_WEAPON	= 3,		--投掷武器
 	HEAD				= 4,		--头部

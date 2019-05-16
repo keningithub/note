@@ -28,6 +28,8 @@ isGameServerMaintain=>condition: 区服维护中
 isHasRoleInfo=>condition: 是否有角色信息
 isHaveRoleInfo=>condition: 是否有角色信息
 
+sub=>subroutine: ssss
+
 s->getLoginServerStatus->isLoginServerStatusOk
 isLoginServerStatusOk(no)->showTipsTheLoginServerIsMaintain
 isLoginServerStatusOk(yes)->showSDKLoginDlg->getLoginToken->sendTokenToLoginServer->isLoginTokenOk
