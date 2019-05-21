@@ -28,7 +28,7 @@ quad空格，符号：\quad，如：$x \quad y$
 紧贴，符号\!，如：$x ! y$
 
 ## 定界符与组合
-自适应括号，符号：\left \right，如：$f\left(x\right)$，$m\left[i\right]$，$$
+自适应括号，符号：\left \right，如：$f\left(x\right)$，$m\left[i\right]$，$\{x\}$
 组合公式，符号：{上位公式 \choose 下位公式}，如：${n+1 \choose k}={n \choose k}+{n \choose k-1}$
 组合公式，符号：{上位公式 \atop 下位公式}，如：$\sum_{k_0,k_1,\ldots>0 \atop k_0+k_1+\cdots=n}A_{k_0}A_{k_1}\cdots$
 
