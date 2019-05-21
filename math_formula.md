@@ -61,10 +61,7 @@ quad空格，符号：\quad，如：$x \quad y$
 积分运算，符号：\int，如：$\int^{\infty}_{0}{xdx}$
 积分运算，符号：\displaystyle \int，如：$\displaystyle \int^{\infty}_{0}{xdx}$
 微分运算，符号：\partial，如：$\frac{\partial x}{\partial y}$
-矩阵表示，符号：\begin{pmatrix} \end{pmatrix}，如：$\begin{pmatrix}
- a_{11} & a_{12} \\ 
- a_{21} & a_{22} \\
- \end{pmatrix}$
+矩阵表示，符号：\begin{pmatrix} \end{pmatrix}，如：$\begin{pmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{pmatrix}$
 
 ## 逻辑运算
 等于运算，符号：=，如：$x+y=z$
