@@ -16,7 +16,8 @@
 上大括号，符号：\overbrace{算式}，如：$\overbrace{a+b+c+d}^{2.0}$
 下大括号，符号：\underbrace{算式}，如：$a+\underbrace{b+c}_{1.0}+d$
 上位符号，符号：\stacrel{上位符号}{基位符号}，如：$\vec{x}\stackrel{\mathrm{def}}{=}{x_1,\dots,x_n}$
-占位符
+
+## 占位符
 两个quad空格，符号：\qquad，如：$x \qquad y$
 quad空格，符号：\quad，如：$x \quad y$
 大空格，符号\，如：$x \ y$
@@ -24,7 +25,8 @@ quad空格，符号：\quad，如：$x \quad y$
 小空格，符号\,，如：$x , y$
 没有空格，符号``，如：$xy$
 紧贴，符号\!，如：$x ! y$
-定界符与组合
+
+## 定界符与组合
 括号，符号：（）\big(\big) \Big(\Big) \bigg(\bigg) \Bigg(\Bigg)，如：$（）\big(\big) \Big(\Big) \bigg(\bigg) \Bigg(\Bigg)$
 中括号，符号：[]，如：$[x+y]$
 大括号，符号：\{ \}，如：${x+y}$
