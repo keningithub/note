@@ -109,7 +109,7 @@ quad空格，符号：\quad，如：$x \quad y$
 矢量符号，符号\vec{a}，如：$\vec{a}$
 数学符号，符号\acute{a}，如：$\acute{a}$
 数学符号，符号\grave{a}，如：$\grave{a}$
-数学符号，符号\mathring{a}，如：$\widetilde{a}$ $\mathring{U}(x_0, \delta)$
+数学符号，符号\widetilde{a}，如：$\widetilde{a}$
 一阶导数符号，符号\dot{a}，如：$\dot{a}$
 二阶导数符号，符号\ddot{a}，如：$\ddot{a}$
 上箭头，符号：\uparrow，如：$\uparrow$
