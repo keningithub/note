@@ -28,7 +28,7 @@ quad空格，符号：\quad，如：$x \quad y$
 紧贴，符号\!，如：$x ! y$
 
 ## 定界符与组合
-括号，符号：（）\big(\big) \Big(\Big) \bigg(\bigg) \Bigg(\Bigg)，如：$（）\big(\big) \Big(\Big) \bigg(\bigg) \Bigg(\Bigg)$
+括号，符号：（），如：$\(Big\)$
 中括号，符号：[]，如：$\left[x+y\right]$
 大括号，符号：\{ \}，如：${x+y\}$
 自适应括号，符号：\left \right，如：$\left(x\right)$，$\left(xyz\right)$
