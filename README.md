@@ -33,7 +33,8 @@ quad空格，符号：\quad，如：$x \quad y$
 自适应括号，符号：\left \right，如：$\left(x\right)$，$\left(x{yz}\right)$
 组合公式，符号：{上位公式 \choose 下位公式}，如：${n+1 \choose k}={n \choose k}+{n \choose k-1}$
 组合公式，符号：{上位公式 \atop 下位公式}，如：$\sum_{k_0,k_1,\ldots>0 \atop k_0+k_1+\cdots=n}A_{k_0}A_{k_1}\cdots$
-四则运算
+
+## 四则运算
 加法运算，符号：+，如：$x+y=z$
 减法运算，符号：-，如：$x-y=z$
 加减运算，符号：\pm，如：$x \pm y=z$
@@ -46,7 +47,8 @@ quad空格，符号：\quad，如：$x \quad y$
 分式表示，符号：\frac{分子}{分母}，如：$\frac{x+y}{y+z}$
 分式表示，符号：{分子} \voer {分母}，如：${x+y} \over {y+z}$
 绝对值表示，符号：||，如：$|x+y|$
-高级运算
+
+## 高级运算
 平均数运算，符号：\overline{算式}，如：$\overline{xyz}$
 开二次方运算，符号：\sqrt，如：$\sqrt x$
 开方运算，符号：\sqrt[开方数]{被开方数}，如：$\sqrt[3]{x+y}$
@@ -59,7 +61,8 @@ quad空格，符号：\quad，如：$x \quad y$
 积分运算，符号：\displaystyle \int，如：$\displaystyle \int^{\infty}_{0}{xdx}$
 微分运算，符号：\partial，如：$\frac{\partial x}{\partial y}$
 矩阵表示，符号：\begin{matrix} \end{matrix}，如：$\left[ \begin{matrix} 1 &2 &\cdots &4\5 &6 &\cdots &8\\vdots &\vdots &\ddots &\vdots\13 &14 &\cdots &16\end{matrix} \right]$
-逻辑运算
+
+## 逻辑运算
 等于运算，符号：=，如：$x+y=z$
 大于运算，符号：>，如：$x+y>z$
 小于运算，符号：<，如：$x+y<z$
@@ -72,7 +75,8 @@ quad空格，符号：\quad，如：$x \quad y$
 不小于等于运算，符号：\not\leq，如：$x+y \not\leq z$
 约等于运算，符号：\approx，如：$x+y \approx z$
 恒定等于运算，符号：\equiv，如：$x+y \equiv z$
-集合运算
+
+## 集合运算
 属于运算，符号：\in，如：$x \in y$
 不属于运算，符号：\notin，如：$x \notin y$
 不属于运算，符号：\not\in，如：$x \not\in y$
@@ -92,7 +96,8 @@ quad空格，符号：\quad，如：$x \quad y$
 实数集合，符号：\mathbb{R}，如：\mathbb{R}
 自然数集合，符号：\mathbb{Z}，如：\mathbb{Z}
 空集，符号：\emptyset，如：$\emptyset$
-数学符号
+
+## 数学符号
 无穷，符号：\infty，如：$\infty$
 虚数，符号：\imath，如：$\imath$
 虚数，符号：\jmath，如：$\jmath$
