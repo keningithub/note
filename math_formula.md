@@ -11,6 +11,7 @@ $$xyz$$
 组合符号，符号：{}，如：${16}_{8}O^{2+3}+X_{25}$
 
 ## 汉字、字体与格式
+
 字体控制，符号：\displaystyle，如：$\displaystyle \frac{x+y}{y+z}$
 下划线符号，符号：\underline，如：$\underline{x+y}$
 标签，符号\tag{数字}，如：$\tag{11}$
