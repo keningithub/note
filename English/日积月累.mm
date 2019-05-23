@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1551669368756" ID="ID_1953628148" MODIFIED="1554258914762" TEXT="&#x65e5;&#x79ef;&#x6708;&#x7d2f;">
+<node CREATED="1551669368756" ID="ID_1953628148" MODIFIED="1558578043766" TEXT="&#x65e5;&#x79ef;&#x6708;&#x7d2f;">
 <node CREATED="1552984369305" ID="ID_1471421603" MODIFIED="1552984375513" POSITION="left" TEXT="&#x8bcd;&#x6c47;">
 <node CREATED="1552984067624" ID="ID_507587468" MODIFIED="1552984365350" TEXT="be referred to as">
 <node CREATED="1552984109606" ID="ID_45430175" MODIFIED="1552984119664" TEXT="&#x88ab;&#x79f0;&#x4e3a;"/>
@@ -64,8 +64,7 @@
       <font color="rgb(0, 0, 0)" face="arial, helvetica, sans-serif">&#35823;&#65306;Nothing would&#160;</font><font color="rgb(192, 0, 0)" face="arial, helvetica, sans-serif">prevent from his speaking</font><font color="rgb(0, 0, 0)" face="arial, helvetica, sans-serif">&#160;out against injustice.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1558341506329" ID="ID_1619210276" MODIFIED="1558341552356" TEXT="&#x9664;keep&#x5916;, prevent/stop&#x4e2d;&#x7684;from&#x53ef;&#x4ee5;&#x7701;&#x7565;">
 <node CREATED="1558341555707" ID="ID_64567575" MODIFIED="1558341579561" TEXT="keep sb doing: &#x8ba9;&#x67d0;&#x4eba;&#x4e00;&#x76f4;...."/>
 </node>
